@@ -79,6 +79,7 @@
     <Content Include="index2.html" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
+    <Content Include="Table.html" />
     <None Include="C0749303 CSD2214-6-WEEK6_TemporaryKey.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
