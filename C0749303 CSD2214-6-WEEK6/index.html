@@ -7,6 +7,18 @@
 </head>
 <body>
     <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <script>
+        var input1 = prompt("how high should i count up to?");
+        var sum = 0;
+        for (var i = 0; i < input1; i++) {
+            document.write("<p>point A: i is" + i);
+            document.write("<p>point A: i is" + sum);
+            document.write("<p>point B: i is" + sum);
+            sum += 1;
+            document.write("<p>point B: i is" + sum);
+        }
+        document.write("<hr><p> Point C: i is" + i);
+        document.write(sum);
+    </script>
 </body>
 </html>
